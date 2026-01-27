@@ -14,7 +14,7 @@ export default function HeaderNav() {
         <Link
           key={link.label}
           href={link.href}
-          className="text-gray-400 hover:text-white hover:underline"
+          className="text-gray-400 md:text-[1rem] text-sm hover:text-white hover:underline outline-none"
         >
           {link.label}
         </Link>
