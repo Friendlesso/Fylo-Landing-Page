@@ -1,7 +1,9 @@
+import type { ReactNode } from "react";
+
 type LinkProps = {
   href: string;
   className: string;
-  children: string;
+  children: ReactNode;
 }
 
 export default function Link({
