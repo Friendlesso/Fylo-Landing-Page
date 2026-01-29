@@ -5,7 +5,7 @@ export default function ValuePropositionLink() {
     <div>
       <Link
         href="/"
-        className="text-(--teal-text-color) underline underline-offset-10"
+        className="text-(--teal-200) underline underline-offset-10 hover:text-white"
       >
         See how Fylo works ?
       </Link>

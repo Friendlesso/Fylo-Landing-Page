@@ -4,7 +4,7 @@ import DecorationQuote from '../../assets/images/bg-quotes.png'
 
 export default function QuotesList() {
   return (
-    <section className="mt-20 relative">
+    <section className="relative">
       <div
         className={`
           grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1

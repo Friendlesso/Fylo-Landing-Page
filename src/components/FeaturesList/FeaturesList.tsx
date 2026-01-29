@@ -4,7 +4,7 @@ import { Feature } from "./Feature";
 
 export default function FeaturesList() {
   return (
-    <section className="grid md:grid-cols-2 grid-rows-1 lg:gap-20 gap-y-10 gap-x-7 md:w-fit mt-10">
+    <section className="grid md:grid-cols-2 grid-rows-1 lg:gap-20 gap-y-10 gap-x-7 md:w-fit">
       {FEATURES_DATA.map((card, index )=> (
         <Feature
           key={index}
