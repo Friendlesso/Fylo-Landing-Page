@@ -5,7 +5,7 @@ import ValueProposition from "../components/ValueProposition/ValueProposition";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-25 mt-5 items-center">
+    <main className="flex flex-col gap-15 pt-5 mx-8 items-center pb-50">
       <HeroSection />
       <FeaturesList />
       <ValueProposition />
