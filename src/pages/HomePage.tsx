@@ -5,11 +5,13 @@ import ValueProposition from "../components/ValueProposition/ValueProposition";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-15 pt-5 mx-8 items-center pb-50">
+    <main className="flex flex-col  items-center pb-50">
       <HeroSection />
-      <FeaturesList />
-      <ValueProposition />
-      <QuotesList />
+      <div className="flex flex-col items-center gap-30 pt-5 mx-8">
+        <FeaturesList />
+        <ValueProposition />
+        <QuotesList />
+      </div>
     </main>
   )
 }

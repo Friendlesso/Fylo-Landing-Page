@@ -1,12 +1,13 @@
 import Link from "../ui/Link";
+import HeroDecoration from "./HeroDecoration";
 import HeroSectionContent from "./HeroSectionContent";
 import HeroSectionImg from "./HeroSectionImg";
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col items-center gap-8">
+    <section className="flex flex-col items-center gap-8 w-full bg-(--custom-bg-color) pb-10 px-8 relative">
       <HeroSectionImg />
-      <div className="flex flex-col items-center gap-5">
+      <div className="flex flex-col items-center gap-5 z-10 mb-20">
         <HeroSectionContent />
         <Link 
           href="/"
@@ -23,6 +24,7 @@ export default function HeroSection() {
           Get Started
         </Link>
       </div>
+      <HeroDecoration />
     </section>
   )
 }

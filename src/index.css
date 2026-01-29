@@ -4,6 +4,7 @@
 
 :root {
   --main-bg-color: hsl(218, 28%, 13%);
+  --custom-bg-color: hsl(217, 28%, 15%);
   --quotes-bg-color: hsl(219, 30%, 18%);
   --footer-bg-color: hsl(216, 53%, 9%);
 
